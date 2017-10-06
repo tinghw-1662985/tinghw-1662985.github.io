@@ -1,0 +1,15 @@
+
+ span {
+   color: blue;
+ }
+
+ h1 {
+   border: 3px red solid;
+   border-radius: 15px;
+ }
+
+ img {
+   height: 350px;
+   width: 295px;
+   float: right;
+ }
