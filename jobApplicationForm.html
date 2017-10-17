@@ -8,7 +8,7 @@
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body style="background-color:lightyellow;">
-<div class="container">
+<div>
 <p>Level 2: Apprentice</p>
 <h2 style="text-align:center;">Investment Management Internship Application</h2>
 
@@ -37,26 +37,26 @@ and job assignment.</li>
 
 <form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
 
-	<details>
+	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Account</summary>
 		<p>&nbsp;</p>
-	<fieldset class="form-horizontal" >
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="email">
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+		<div>
+			<label style="font-size:13pt;">Email</label>
+			<div>
+				<input type="text" name="email">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Password</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="password" name="password">
+		<div>
+			<label style="font-size:13pt;">Password</label>
+			<div>
+				<input type="password" name="password">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Repeat password</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="password" name="repeat_password">
+		<div >
+			<label style="font-size:13pt;">Repeat password</label>
+			<div>
+				<input type="password" name="repeat_password">
 			</div>
 		</div>
 	</fieldset>
@@ -64,32 +64,32 @@ and job assignment.</li>
 
 	<p>&nbsp;</p>
 
-	<details>
+	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Personal Information</summary>
 		<p>&nbsp;</p>
-	<fieldset class="form-horizontal" >
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Full name</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="name">
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+		<div >
+			<label >Full name</label>
+			<div>
+				<input type="text" name="name">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Street address</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="street">
+		<div >
+			<label >Street address</label>
+			<div>
+				<input type="text" name="street">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">City</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="city">
+		<div >
+			<label >City</label>
+			<div>
+				<input type="text" name="city">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">State</label>
-			<div class="col-sm-9">
-				<select class="form-control" name="state">
+		<div >
+			<label >State</label>
+			<div>
+				<select name="state">
 					<option value="" selected="true">Choose a State</option>
 					<option value="AL">Alabama</option>
 					<option value="AK">Alaska</option>
@@ -145,10 +145,10 @@ and job assignment.</li>
 				</select>
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">ZIP</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="zip">
+		<div >
+			<label >ZIP</label>
+			<div>
+				<input type="text" name="zip">
 			</div>
 		</div>
 	</fieldset>
@@ -157,53 +157,54 @@ and job assignment.</li>
 	<p>&nbsp;</p>
 
 
-	<details>
+	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Availability</summary>
 		<p>&nbsp;</p>
-	<fieldset>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="radio">
+		<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+		<div>
+			<label style="font-size:13pt;">Are you legally able to be employed in this country?</label>
+			<div>
+				<div >
 					<label>
 						<input type="radio" name="legal" value="yes">Yes
 					</label>
 				</div>
-				<div class="radio">
+				<div >
 					<label>
 						<input type="radio" name="legal" value="no">No
 					</label>
 				</div>
 			</div>
 		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">What type of position are you seeking? (check all that apply)</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="checkbox">
+		<br>
+		<div>
+			<label style="font-size:13pt;">What type of position are you seeking? (check all that apply)</label>
+			<div >
+				<div >
 					<label>
 						<input type="checkbox" name="position_pt" value="parttime">
 						Part time
 					</label>
 				</div>
-				<div class="checkbox">
+				<div >
 					<label>
 						<input type="checkbox" name="position_ft" value="fulltime">
 						Full time
 					</label>
 				</div>
-				<div class="checkbox">
+				<div >
 					<label>
 						<input type="checkbox" name="position_sl" value="seasonal">
 						Seasonal
 					</label>
 				</div>
-				<div class="checkbox">
+				<div >
 					<label>
 						<input type="checkbox" name="position_tp" value="internship">
 						Internship
 					</label>
 				</div>
-				<div class="checkbox">
+				<div >
 					<label>
 						<input type="checkbox" name="position_tp" value="exploratory">
 						Exploratory
@@ -211,15 +212,16 @@ and job assignment.</li>
 				</div>
 			</div>
 		</div>
+	</fieldset>
 </details>
 
 	<p>&nbsp;</p>
 
 
-		<details>
+		<details style="width:90%; margin-left:auto; margin-right:auto;">
 			<summary style="font-size: 15pt;">Responsibilities</summary>
 			<p>&nbsp;</p>
-		<div id="responsibility">
+		<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
 			<p>
 				Responsibilities depend on which of the following functional areas the Investment Management Intern is placed in:
 				<ul>
@@ -255,15 +257,15 @@ and job assignment.</li>
 </li>
 			</ul>
 			</p>
-			</div>
+		</fieldset>
 </details>
 
 	<p>&nbsp;</p>
 
-	<details>
+	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Qualifications</summary>
 		<p>&nbsp;</p>
-	<fieldset>
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
 			<div id="qulifications">
 				<p>
 				<ul>
@@ -289,17 +291,18 @@ and job assignment.</li>
 
 	<p>&nbsp;</p>
 
-	<details style="width:89%; margin-left:auto; margin-right:auto;">
+	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Personal Statement</summary>
 		<p>&nbsp;</p>
 	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
-		<div class="form-group">
-			<label class="control-label">Why do you deserve this job?</label>
-			<textarea class="form-control" name="deserve" rows="6"></textarea>
+		<div>
+			<label style="font-size:13pt;">Why do you deserve this job?</label><br>
+			<textarea style="width:80%;" name="deserve" rows="6"></textarea>
 		</div>
-		<div class="form-group">
-			<label class="control-label">Describe what are you good at?</label>
-			<textarea class="form-control" name="project" rows="6"></textarea>
+		<br>
+		<div>
+			<label style="font-size:13pt;">Describe what are you good at?</label><br>
+			<textarea style="width:80%;" name="project" rows="6"></textarea>
 		</div>
 	</fieldset>
 	</details>
@@ -307,7 +310,7 @@ and job assignment.</li>
 
 
 <div style="width:13%; margin-left:auto; margin-right:auto;">
-	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+	<input  type="submit" value="Submit form">
 </div>
 
 	<p>&nbsp;</p>
