@@ -40,24 +40,19 @@ and job assignment.</li>
 	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Account</summary>
 		<p>&nbsp;</p>
-	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto; border:none;">
 		<div>
-			<label style="font-size:13pt;">Email</label>
-			<div>
+			<label>Email</label> &nbsp;&nbsp;
 				<input type="text" name="email">
-			</div>
 		</div>
 		<div>
-			<label style="font-size:13pt;">Password</label>
-			<div>
+			<label>Password</label> &nbsp;&nbsp;
 				<input type="password" name="password">
-			</div>
 		</div>
 		<div >
-			<label style="font-size:13pt;">Repeat password</label>
-			<div>
+			<label>Repeat password</label>
+&nbsp;&nbsp;
 				<input type="password" name="repeat_password">
-			</div>
 		</div>
 	</fieldset>
 </details>
@@ -67,28 +62,23 @@ and job assignment.</li>
 	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Personal Information</summary>
 		<p>&nbsp;</p>
-	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
-		<div >
-			<label >Full name</label>
-			<div>
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto; border:none;">
+		<div>
+			<label>Full name</label>&nbsp;&nbsp;
 				<input type="text" name="name">
-			</div>
 		</div>
 		<div >
 			<label >Street address</label>
-			<div>
+&nbsp;&nbsp;
 				<input type="text" name="street">
-			</div>
 		</div>
 		<div >
 			<label >City</label>
-			<div>
+&nbsp;&nbsp;
 				<input type="text" name="city">
-			</div>
 		</div>
 		<div >
-			<label >State</label>
-			<div>
+			<label >State</label>&nbsp;&nbsp;
 				<select name="state">
 					<option value="" selected="true">Choose a State</option>
 					<option value="AL">Alabama</option>
@@ -143,13 +133,10 @@ and job assignment.</li>
 					<option value="WI">Wisconsin</option>
 					<option value="WY">Wyoming</option>
 				</select>
-			</div>
 		</div>
 		<div >
-			<label >ZIP</label>
-			<div>
+			<label >ZIP</label>&nbsp;&nbsp;
 				<input type="text" name="zip">
-			</div>
 		</div>
 	</fieldset>
 </details>
@@ -160,11 +147,12 @@ and job assignment.</li>
 	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Availability</summary>
 		<p>&nbsp;</p>
-		<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+		<fieldset style="width:83%; margin-left:auto; margin-right:auto; border:none;">
 		<div>
 			<label style="font-size:13pt;">Are you legally able to be employed in this country?</label>
-			<div>
-				<div >
+			<p>
+			<div style="margin-left:10%;">
+				<div>
 					<label>
 						<input type="radio" name="legal" value="yes">Yes
 					</label>
@@ -175,11 +163,13 @@ and job assignment.</li>
 					</label>
 				</div>
 			</div>
+		</p>
 		</div>
 		<br>
 		<div>
 			<label style="font-size:13pt;">What type of position are you seeking? (check all that apply)</label>
-			<div >
+			<p>
+			<div style="margin-left:10%;">
 				<div >
 					<label>
 						<input type="checkbox" name="position_pt" value="parttime">
@@ -211,6 +201,7 @@ and job assignment.</li>
 					</label>
 				</div>
 			</div>
+		</p>
 		</div>
 	</fieldset>
 </details>
@@ -221,7 +212,7 @@ and job assignment.</li>
 		<details style="width:90%; margin-left:auto; margin-right:auto;">
 			<summary style="font-size: 15pt;">Responsibilities</summary>
 			<p>&nbsp;</p>
-		<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+		<fieldset style="width:83%; margin-left:auto; margin-right:auto; border:none;">
 			<p>
 				Responsibilities depend on which of the following functional areas the Investment Management Intern is placed in:
 				<ul>
@@ -265,7 +256,7 @@ and job assignment.</li>
 	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Qualifications</summary>
 		<p>&nbsp;</p>
-	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto; border:none;">
 			<div id="qulifications">
 				<p>
 				<ul>
@@ -294,7 +285,7 @@ and job assignment.</li>
 	<details style="width:90%; margin-left:auto; margin-right:auto;">
 		<summary style="font-size: 15pt;">Personal Statement</summary>
 		<p>&nbsp;</p>
-	<fieldset style="width:83%; margin-left:auto; margin-right:auto;">
+	<fieldset style="width:83%; margin-left:auto; margin-right:auto; border:none;">
 		<div>
 			<label style="font-size:13pt;">Why do you deserve this job?</label><br>
 			<textarea style="width:80%;" name="deserve" rows="6"></textarea>
@@ -310,7 +301,7 @@ and job assignment.</li>
 
 
 <div style="width:13%; margin-left:auto; margin-right:auto;">
-	<input  type="submit" value="Submit form">
+	<input style="background-color:lightblue; border-radius:6pt;" type="submit" value="Submit form">
 </div>
 
 	<p>&nbsp;</p>
