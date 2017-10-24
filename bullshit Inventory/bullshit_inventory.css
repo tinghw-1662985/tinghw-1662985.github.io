@@ -1,0 +1,133 @@
+/*10-09-2017
+Written by Justin Tinghao Wang
+Bullshit Inventory Project
+Info 198*/
+
+#back, #inventory {
+	border: #974455 solid 2px;
+	bottom: 5px;
+	color: #974455;
+	font-size: 18pt;
+	padding: 3px;
+	position: absolute;
+}
+
+#back {
+	right: 15%;
+}
+
+#inventory {
+	right: 5%;
+}
+
+body {
+	background-color: lightyellow;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 0px;
+}
+
+.note {
+	font-size: 13pt;
+	font-family: "Georgia", "Times New Roman", "serif font";
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 12px;
+	padding: 1em;
+	margin: auto;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+h2 {
+	border-bottom: 1px solid #e4e1da;
+	color: purple;
+	text-align: center;
+}
+
+#header {
+	background-image: url("https://webster.cs.washington.edu/cse154/homework/hw6/books.jpg");
+	box-shadow: 0 5px 5px lightgray;
+	height: 104px;
+	position: relative;
+}
+
+#header > div {
+	bottom: 0px;
+	color: #939384;
+	font-family: Tahoma, sans-serif;
+	font-size: 36pt;
+	position: absolute;
+	left: 10%;
+}
+
+#header > div > span {
+	font-weight: bold;
+}
+
+#mainPanel {
+	display: flex;
+	flex-direction: column;
+}
+
+.floor {
+	display: flex;
+	flex-direction: row;
+}
+
+.floor img {
+	width: 55%;
+	margin-left: auto;
+	margin-right: 5%;
+	border: 2px solid silver;
+}
+
+summary {
+	text-align: center;
+}
+
+#end {
+	border-top: 1px solid silver;
+}
+
+#table {
+	margin-top: 3%;
+}
+
+.mark {
+	width: 50px;
+	height: 30px;
+}
+
+.magnitude {
+	display: flex;
+	flex-direction: row;
+}
+
+.xp {
+	width: 20px;
+	height: 30px;
+}
+
+h1 {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.source {
+	margin-left: auto;
+	margin-right: 16%;
+}
+
+.stair {
+	display: flex;
+	flex-direction: column;
+}
+
+.eventImg {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 40%;
+	height: 35%;
+}
