@@ -1,0 +1,65 @@
+<!--
+Justin Tinghao Wang
+08-27-17
+
+This is the html page for raffle ticket runner.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raffle Ticket Runner</title>
+        <link rel="stylesheet" href="raffle_tickets.css" type="text/css" />
+        <script type="text/javascript" src="raffle_tickets.js"></script>
+    </head>
+
+    <body>
+        <h1>Raffle Ticket Runner</h1>
+        <h2>You are the winner!</h2>
+
+        <!--this is the reading box-->
+        <div id="readingBox">
+        </div>
+
+        <!-- this is the control panel-->
+        <div id="lowerPanel">
+            <div id="controlPanel">
+                <!-- this is the play controls button -->
+                <fieldset>
+                    <legend>Play Controls:</legend>
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                </fieldset>
+
+                <!-- this is the speeding selection button -->
+                <fieldset>
+                    <legend>Speed:</legend>
+                    <select id="speed">
+                        <option value="175">Slow</option>
+                        <option value="125">Medium</option>
+                        <option value="75">Fast</option>
+                    </select>
+                </fieldset>
+
+                <!-- this is the size selection button -->
+                <fieldset>
+                    <legend>Size:</legend>
+                        <label><input id="medium" type="radio" name="fond-size"
+                                value="36pt" checked="checked" />Medium</label>
+                        <label><input id="big" type="radio" name="fond-size"
+                                value="48pt" />Big</label>
+                        <label><input id="bigger" type="radio" name="fond-size"
+                                value="60pt" />Bigger</label>
+                </fieldset>
+            </div>
+
+            <!-- this is the input text box -->
+            <div id="inputPanel">
+                <fieldset>
+                    <legend>Input Raffle Ticket Numbers (separate each number by pressing Enter)</legend>
+                    <textarea id="inputBox" rows="10" cols="80"></textarea>
+                </fieldset>
+            </div>
+        </div>
+    </body>
+</html>

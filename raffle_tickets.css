@@ -1,0 +1,74 @@
+/*
+Justin Tinghao Wang
+08-27-17
+*/
+
+body {
+    background-color: #EAF6F6;
+    font-size: 12pt;
+    font-family: "Garamond", "serif font";
+}
+
+h1,h2, #readingBox {
+    text-align: center;
+}
+
+h2 {
+  color: darkred;
+}
+
+#readingBox {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    font-size: 36pt;
+    font-weight: bold;
+    line-height: 100px;
+    border: 2px solid #8EBEBE;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #8EBEBE;
+    width: 100%;
+    padding: 2px;
+}
+
+fieldset {
+    border: 0;
+}
+
+#lowerPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controlPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#inputBox, button {
+    border: 1px solid gray;
+    background-color: #FFFFFF;
+}
+
+button, footer {
+    width: 70px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
